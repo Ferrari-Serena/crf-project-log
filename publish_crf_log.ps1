@@ -46,6 +46,7 @@ $changes = git -C $PublishRoot status --porcelain
 if ($changes) {
   $stamp = Get-Date -Format 'yyyy-MM-dd HH:mm'
   git -C $PublishRoot commit -m "Update project log $stamp"
+  if ($LASTEXITCODE -ne 0) { throw 'Commit failed.' }
   Write-Host 'Committed local changes.'
 } else {
   Write-Host 'No changes to commit.'
@@ -58,5 +59,6 @@ if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($remote)) {
   Write-Warning 'Then run this script again to push.'
 } else {
   git -C $PublishRoot push -u origin main
+  if ($LASTEXITCODE -ne 0) { throw 'Push failed. Pull or rebase may be required.' }
   Write-Host 'Pushed to origin.'
 }
