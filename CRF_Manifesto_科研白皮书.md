@@ -68,8 +68,8 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 
 - gap：外层 `FROZEN`；内层 `SOFT`。
 - V114：题库范围 `FROZEN[ver 1]`；打标 `文献已覆盖 38 / 研究空白 60 / 理论迁移 16 / 待核实 0 · AS-OF 2026-09-09 08:05 · tag_lit_vs_field.mjs`。
-- V400：题库范围 `FROZEN[ver 1]`；构成 `114 + 260 + 6 + 21 = 401`；种子 `66 = 57 非 TA 研究空白 + 9 TA 专项`；可视化已上线 `crf.ferrari11.com`；`401 节点 / 1607 边 / 平均度 8.015 / 19 簇 / modularity 0.6753 · AS-OF 2026-09-15 · link.py + cluster.py`。打标：`stakeholder` 多值 23 节点（2 方 11 / 3 方 5 / 4 方 3 / 5 方 4）；`theory_tags` 48/401（粗层 46 + 细层 5，细层 social_exchange 1 / academic_capitalism 2 / stakeholder_salience 2）；`citations` 非空 19 节点 · `AS-OF 2026-09-15 · build_401_tagging.py + apply_tags.py`。扩题未做新文献搜索，文献口径待定。
-- V400 待补：当前正式称为 401 题（380 + 21 GAP 新题）；是否生成 V400 状态热力图仍待定。
+- V400：题库范围 `FROZEN[ver 1]`；构成 `114 + 260 + 6 + 21 = 401`；种子 `66 = 57 非 TA 研究空白 + 9 TA 专项`；可视化已上线 `crf.ferrari11.com`；`401 节点 / 1607 边 / 平均度 8.015 / 19 簇 / modularity 0.6753 · AS-OF 2026-09-15 · link.py + cluster.py`。打标：`stakeholder` 多值 23 节点（2 方 11 / 3 方 5 / 4 方 3 / 5 方 4）；`theory_tags` 48/401（粗层 46 + 细层 5，细层 social_exchange 1 / academic_capitalism 2 / stakeholder_salience 2）；`citations` 非空 19 节点 · `AS-OF 2026-09-15 · build_401_tagging.py + apply_tags.py`。扩题未做新文献搜索，文献口径待定；V400 状态热力图见 `汇报材料/热力图_v400_状态_五方四桶.png`。
+- V400 状态热力图：401 题四桶 = 文献已覆盖 38 / 研究空白 347 / 理论迁移 16 / 待核实 0 · AS-OF 2026-09-15 · `脚本/heatmap_v400_status.py`。
 - 对外交付件：`报告/2026-09-09_V400交付说明-给李博士.md`（派生件，不作为数字权威）。
 - 网络指标轴：`metrics.json` 数值只描述“问题库存结构”，不描述现实校企合作世界。
 - 方法/解释层：`0.6/0.4`、`k=6` 的敏感性结论见 `调研笔记/C06_敏感性报告.md`（FINAL-已重跑401）；19 簇双语命名依据见 `调研笔记/19簇命名依据_2026-09-15.md`（FINAL-已终审），`graph.js` 已按该表回改并部署。
