@@ -68,11 +68,11 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 
 - gap：外层 `FROZEN`；内层 `SOFT`。
 - V114：题库范围 `FROZEN[ver 1]`；打标 `文献已覆盖 38 / 研究空白 60 / 理论迁移 16 / 待核实 0 · AS-OF 2026-09-09 08:05 · tag_lit_vs_field.mjs`。
-- V400：题库范围 `FROZEN[ver 1]`；构成 `114 + 260 + 6 + 21 = 401`；种子 `66 = 57 非 TA 研究空白 + 9 TA 专项`；可视化已上线 `crf.ferrari11.com`；`401 节点 / 1607 边 / 平均度 8.015 / 19 簇 / modularity 0.6753 · AS-OF 2026-09-15 · link.py + cluster.py`。扩题未做新文献搜索，文献口径待定。
+- V400：题库范围 `FROZEN[ver 1]`；构成 `114 + 260 + 6 + 21 = 401`；种子 `66 = 57 非 TA 研究空白 + 9 TA 专项`；可视化已上线 `crf.ferrari11.com`；`401 节点 / 1607 边 / 平均度 8.015 / 19 簇 / modularity 0.6753 · AS-OF 2026-09-15 · link.py + cluster.py`。打标：`stakeholder` 多值 23 节点（2 方 11 / 3 方 5 / 4 方 3 / 5 方 4）；`theory_tags` 48/401（粗层 46 + 细层 5，细层 social_exchange 1 / academic_capitalism 2 / stakeholder_salience 2）；`citations` 非空 19 节点 · `AS-OF 2026-09-15 · build_401_tagging.py + apply_tags.py`。扩题未做新文献搜索，文献口径待定。
 - V400 待补：当前正式称为 401 题（380 + 21 GAP 新题）；是否生成 V400 状态热力图仍待定。
 - 对外交付件：`报告/2026-09-09_V400交付说明-给李博士.md`（派生件，不作为数字权威）。
 - 网络指标轴：`metrics.json` 数值只描述“问题库存结构”，不描述现实校企合作世界。
-- 方法/解释层：`0.6/0.4`、`k=6` 的敏感性结论见 `调研笔记/C06_敏感性报告.md`（FINAL-已生成）；19 簇双语命名依据见 `调研笔记/19簇命名依据_2026-09-15.md`（FINAL-已终审），`graph.js` 已按该表回改并部署。
+- 方法/解释层：`0.6/0.4`、`k=6` 的敏感性结论见 `调研笔记/C06_敏感性报告.md`（FINAL-已重跑401）；19 簇双语命名依据见 `调研笔记/19簇命名依据_2026-09-15.md`（FINAL-已终审），`graph.js` 已按该表回改并部署。
 - 方法/链步骤：`four step chain` v2 重映射已完成，`chain_steps` 已回写 `nodes.json` 与 `graph.js`；单标签 294 / 双标签 33 / 链外 74。
 - 待补：`Alignment 0 题`、`第五块理论：公共品/俱乐部产品`、`教学法经 learning outcome 的中介排除`。
 - 交叉引用：`TODO 教学法中介排除 ↔ DRAFT H6`。
@@ -199,6 +199,7 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 - Stakeholder Salience：`Mitchell, Agle & Wood 1997`，把五方翻译成 power / legitimacy / urgency。
 - 交易成本经济学：谁承担搜寻、签约、带教、监督、退出成本。
 - Academic Capitalism / Triple Helix：企业与大学权力边界，防捕获的反方。
+- Social Exchange：`Kemp et al. 2021`，学生短期劳动不是零价值，企业获得组织价值。
 
 来源：`调研笔记/Stakeholder_Theory_精读笔记.md`、`调研文献/Lit_Review_08_合成_学者谱系与Gap定位.md`；证据级别 `E1/E3`。
 
@@ -304,6 +305,7 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 | 2026-09-09 | V400 扩题并冻结 380（114 + 260 + 6），生成 380 节点 / 17 簇 | 确定当前研究对象的范围与可重算指标 |
 | 2026-09-13 | 白皮书 v0.1、Simulation 交接卡、与李博士周会 | 确定白皮书 = 正式 project log，明确与 Jin 并行分工 |
 | 2026-09-15 | 补 21 题 GAP 新题至 401，重跑网络为 1607 边 / 19 簇；19 簇全量重命名；`chain_steps` v2 重映射 | 明确当前题库正式称为 401 题，统一对外口径与文档 |
+| 2026-09-15 | 回写 `stakeholder` 多归属 23 节点与 `theory_tags` 两层（粗层 46 + 细层 5） | 问题网络筛选维度从单方/四理论扩展为多方/七理论标签 |
 
 ## 10. 推进线状态（AS-OF 2026-09-15）
 
@@ -319,7 +321,7 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 
 | 线 | 内容 | 下一步 |
 |---|---|---|
-| 问题网络方法层 | 401 题已冻结（380 + 21 GAP）、19 簇已命名；已完成 `four step chain` v2 重映射（`chain_steps`）；继续 `stakeholder` 多归属、补充理论标签 | 完成 `stakeholder` 多归属后回写 `nodes.json` 与 `graph.js` |
+| 问题网络方法层 | 401 题已冻结（380 + 21 GAP）、19 簇已命名；已完成 `four step chain` v2 重映射（`chain_steps`）；已完成 `stakeholder` 多归属回写与 `theory_tags` 两层补标 | 推送 `crf-question-network` 与 `crf-project-log` 前先确认代理，并线上复核 |
 | 白皮书 / project log | 直接填正文，作为 Jin、教授和新成员的项目入口 | 本文件随各线进展持续更新 |
 | Simulation | 与 Jin 完整同步；两人各自写 COA、各自查 simulation 文献，筛 10 个 simulation-first 问题 | 先给 Jin 交接卡 + 本白皮书 + 三个 JSON |
 | 学校侧 incentive 文献调研 | 先查老师为什么愿意/不愿教这类课，再回企业侧 | 产出可引用文献证据，避免“我觉得” |
