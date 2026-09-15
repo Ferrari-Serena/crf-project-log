@@ -31,6 +31,18 @@ $files = @(
   @{
     Name = '19簇命名依据_2026-09-15.md'
     Source = Join-Path $SourceRoot '调研笔记\19簇命名依据_2026-09-15.md'
+  },
+  @{
+    Name = '热力图_v400_状态_五方四桶.png'
+    Source = Join-Path $SourceRoot '汇报材料\热力图_v400_状态_五方四桶.png'
+  },
+  @{
+    Name = '热力图_v400_状态_明细.md'
+    Source = Join-Path $SourceRoot '汇报材料\热力图_v400_状态_明细.md'
+  },
+  @{
+    Name = 'heatmap_v400_status.py'
+    Source = Join-Path $SourceRoot '脚本\heatmap_v400_status.py'
   }
 )
 
