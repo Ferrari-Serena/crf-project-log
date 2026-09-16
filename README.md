@@ -19,10 +19,4 @@
 
 ## 更新方式
 
-由 Ferrari 在本地维护源文件，运行：
-
-```powershell
-D:\睿谊的WPS\Ferrariwork\CRF\发布\crf-project-log\publish_crf_log.ps1
-```
-
-脚本会把最新文档复制到这里，并推送到 GitHub。
+内容由 Ferrari 在本地维护后推送，仓库内不包含同步脚本。
