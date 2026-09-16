@@ -21,16 +21,8 @@ $files = @(
     Source = Join-Path $SourceRoot '汇报材料\两位教授访谈问题清单_2026-09-13.md'
   },
   @{
-    Name = '贡献台账_作者级贡献.md'
-    Source = Join-Path $SourceRoot '调研笔记\贡献台账_作者级贡献.md'
-  },
-  @{
-    Name = '方法论记录_不可见工作.md'
-    Source = Join-Path $SourceRoot '调研笔记\方法论记录_不可见工作.md'
-  },
-  @{
-    Name = '19簇命名依据_2026-09-15.md'
-    Source = Join-Path $SourceRoot '调研笔记\19簇命名依据_2026-09-15.md'
+    Name = '方法论记录.md'
+    Source = Join-Path $SourceRoot '调研笔记\方法论记录.md'
   },
   @{
     Name = '热力图_v400_状态_五方四桶.png'
@@ -39,10 +31,6 @@ $files = @(
   @{
     Name = '热力图_v400_状态_明细.md'
     Source = Join-Path $SourceRoot '汇报材料\热力图_v400_状态_明细.md'
-  },
-  @{
-    Name = 'heatmap_v400_status.py'
-    Source = Join-Path $SourceRoot '脚本\heatmap_v400_status.py'
   }
 )
 
