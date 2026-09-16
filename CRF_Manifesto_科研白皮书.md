@@ -2,7 +2,7 @@
 title: CRF Manifesto / 科研白皮书
 version: 0.1-template
 status: BODY-DRAFT
-as_of: 2026-09-15
+as_of: 2026-09-16
 canonical_sources:
   - 调研文献/文献核实台账.md
   - 调研笔记/114题打标_文献vs田野.md
