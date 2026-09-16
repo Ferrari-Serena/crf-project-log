@@ -68,14 +68,15 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 
 - gap：外层 `FROZEN`；内层 `SOFT`。
 - V114：题库范围 `FROZEN[ver 1]`；打标 `文献已覆盖 38 / 研究空白 60 / 理论迁移 16 / 待核实 0 · AS-OF 2026-09-09 08:05 · tag_lit_vs_field.mjs`。
-- V400：题库范围 `FROZEN[ver 1]`；构成 `114 + 260 + 6 + 21 = 401`；种子 `66 = 57 非 TA 研究空白 + 9 TA 专项`；可视化已上线 `crf.ferrari11.com`；`401 节点 / 1607 边 / 平均度 8.015 / 19 簇 / modularity 0.6753 · AS-OF 2026-09-15 · link.py + cluster.py`。打标：`stakeholder` 多值 23 节点（2 方 11 / 3 方 5 / 4 方 3 / 5 方 4）；`theory_tags` 48/401（粗层 46 + 细层 5，细层 social_exchange 1 / academic_capitalism 2 / stakeholder_salience 2）；`citations` 非空 19 节点 · `AS-OF 2026-09-15 · build_401_tagging.py + apply_tags.py`。扩题未做新文献搜索，文献口径待定；V400 状态热力图见 `汇报材料/热力图_v400_状态_五方四桶.png`。
+- V400：题库范围 `FROZEN[ver 1]`；构成 `114 + 260 + 6 + 21 = 401`；种子 `66 = 57 非 TA 研究空白 + 9 TA 专项`；可视化已上线 `crf.ferrari11.com`；`401 节点 / 1607 边 / 平均度 8.015 / 19 簇 / modularity 0.6753 · AS-OF 2026-09-15 · link.py + cluster.py`。打标：`stakeholder` 多值 23 节点（2 方 11 / 3 方 5 / 4 方 3 / 5 方 4）；`theory_tags` 48/401（粗层标签实例 47、细层标签实例 4：stakeholder_salience 2 / public_goods 1 / club_goods 1）；`citations` 非空 18 节点 · `AS-OF 2026-09-16 · build_401_tagging.py + apply_tags.py`。扩题未做新文献搜索，文献口径待定；V400 状态热力图见 `汇报材料/热力图_v400_状态_五方四桶.png`。
 - V400 状态热力图：401 题四桶 = 文献已覆盖 38 / 研究空白 347 / 理论迁移 16 / 待核实 0 · AS-OF 2026-09-15 · `脚本/heatmap_v400_status.py`。
 - 对外交付件：`报告/2026-09-09_V400交付说明-给李博士.md`（派生件，不作为数字权威）。
 - 网络指标轴：`metrics.json` 数值只描述“问题库存结构”，不描述现实校企合作世界。
 - 方法/解释层：`0.6/0.4`、`k=6` 的敏感性结论见 `调研笔记/C06_敏感性报告.md`（FINAL-已重跑401）；19 簇双语命名依据见 `调研笔记/19簇命名依据_2026-09-15.md`（FINAL-已终审），`graph.js` 已按该表回改并部署。
 - 方法/链步骤：`four step chain` v2 重映射已完成，`chain_steps` 已回写 `nodes.json` 与 `graph.js`；单标签 294 / 双标签 33 / 链外 74。
 - 待补：`Alignment 0 题`、教学法经 learning outcome 的中介排除。
-- 第五块理论：`public_goods` / `club_goods` 已登记为细层候选，出处 Samuelson 1954 / Buchanan 1965 待核实，暂未挂题。
+- 第五块理论：`public_goods` / `club_goods` 已登记为细层候选，出处 Samuelson 1954 / Buchanan 1965 已核实，首挂题 `public_goods → ENT/EXP-012`、`club_goods → TCH/EXP-049`。
+- 细层清理：`social_exchange` / `academic_capitalism` 因唯一 citation 未核实，2026-09-16 从 `theory_tags` 与 registry 撤下；`Mitchell 1997` DOI 已回填并解除待核实。
 - 交叉引用：`TODO 教学法中介排除 ↔ DRAFT H6`。
 - 阻塞与等待：回链 `项目日志.md`。
 
@@ -206,8 +207,8 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 
 ### 3.3 第五块
 
-- `公共品`：企业为什么理性搭便车；学校声誉、通用人才池、标准化课程模板等基础设施若由单个企业投入，收益会外溢。经典出处：Samuelson 1954（待核实，暂不挂题）。
-- 俱乐部产品：把共享收益做成可排他的会员制；只有参与合作的企业才能接触学生、进课堂、获得背书。经典出处：Buchanan 1965（待核实，暂不挂题）。
+- `公共品`：企业为什么理性搭便车；学校声誉、通用人才池、标准化课程模板等基础设施若由单个企业投入，收益会外溢。经典出处：Samuelson, Paul A. (1954). “The Pure Theory of Public Expenditure.” *The Review of Economics and Statistics*, 36(4), 387–389. DOI: 10.2307/1925895。已首挂 `ENT/EXP-012`。
+- 俱乐部产品：把共享收益做成可排他的会员制；只有参与合作的企业才能接触学生、进课堂、获得背书。经典出处：Buchanan, James M. (1965). “An Economic Theory of Clubs.” *Economica*, New Series, 32(125), 1–14. DOI: 10.2307/2552442。已首挂 `TCH/EXP-049`。
 
 ## 4. 可触及数据
 
@@ -308,6 +309,7 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 | 2026-09-13 | 白皮书 v0.1、Simulation 交接卡、与李博士周会 | 确定白皮书 = 正式 project log，明确与 Jin 并行分工 |
 | 2026-09-15 | 补 21 题 GAP 新题至 401，重跑网络为 1607 边 / 19 簇；19 簇全量重命名；`chain_steps` v2 重映射 | 明确当前题库正式称为 401 题，统一对外口径与文档 |
 | 2026-09-15 | 回写 `stakeholder` 多归属 23 节点与 `theory_tags` 两层（粗层 46 + 细层 5） | 问题网络筛选维度从单方/四理论扩展为多方/七理论标签 |
+| 2026-09-16 | 401 引用清理：回填 `Mitchell 1997` DOI，撤下唯一 citation 未核实的 `social_exchange` / `academic_capitalism` | 细层 4、`theory_tags` 48/401、active citation 无未核实 |
 
 ## 10. 推进线状态（AS-OF 2026-09-15）
 
