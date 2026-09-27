@@ -19,6 +19,7 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 # CRF Manifesto / 科研白皮书
 
 > 本文件包含模板头部与正文 v0.1；正文以 V400 实际冻结的 401 题（380 + 21 GAP 新题）为基准。
+> `as_of` 释义：**研究内容数字的最后复核日**（本版 2026-09-16），**不等于文档最后修改日**；`00 当前状态` 里带 `AS-OF` 的行若晚于它，以该行日期为准。
 
 ## ① 位置 / Obsidian 定界
 
@@ -77,6 +78,7 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 - 第五块理论：`public_goods` / `club_goods` 已登记为细层候选，出处 Samuelson 1954 / Buchanan 1965 已核实，首挂题 `public_goods → ENT/EXP-012`、`club_goods → TCH/EXP-049`。
 - 细层清理：`social_exchange` / `academic_capitalism` 因唯一 citation 未核实，2026-09-16 从 `theory_tags` 与 registry 撤下；`Mitchell 1997` DOI 已回填并解除待核实。
 - 交叉引用：`TODO 教学法中介排除 ↔ DRAFT H6`。
+- **方向变更 · AS-OF 2026-09-27**：项目重心转 TDG（李博士牵头；bot 范围 =「校企合作智能顾问」）；并行启动**类商业计划书**（教学基金申报 + 创业比赛两用）；「两个企业谈配资」与 RAISe+ 的适配性待核实。研究内容口径未变，详见 `项目日志.md` 2026-09-27 条目。
 - 阻塞与等待：回链 `项目日志.md`。
 
 ## ⑦ 附录 A · 双语术语表
