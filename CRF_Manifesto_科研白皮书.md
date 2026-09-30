@@ -256,7 +256,8 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 - 构成：`114 + 260 + 6 + 21 = 401`；种子 `66 = 57 非 TA 研究空白 + 9 TA 专项`。
 - 可视化：`401 节点 / 1607 边 / 平均度 8.015 / 19 簇 / modularity 0.6753 · AS-OF 2026-09-15 · link.py + cluster.py`。
 - 五方：企业 155 / 院系 82 / 教师 83 / 助教 39 / 学生 42。
-- 四步链：单标签 294 / 双标签 33 / 链外 74；按标签出现次数 Incentive 153 / Impact 90 / Efficiency 70 / Incentive Alignment 47。
+- 四步链：单标签 294 / 双标签 33 / 链外 74；按标签出现次数 Incentive 153 / Impact 90 / Efficiency 70 / Incentive Alignment 47 · 来源 `数据/chain_step_remap_v2.jsonl` · AS-OF 2026-09-14 · 生成脚本 `脚本/remap_chain_step_v2.py`（模型 `deepseek-v4-pro`，`temperature 0`，单次调用）。
+- **口径注（上一条）**：生成脚本的 SYSTEM prompt 内含四步定义与本课题核心命题 `Efficiency ≠ Alignment`，故上列计数（含单标签 / 双标签 / 链外拆分）均为**按本课题口径的一次性模型归类**（测的是分类器服从度），**不是独立测得的分布**；无重复试验、无人工复核签署（`数据/chain_step_remap_v2_复核清单.md` 为脚本自动导出）。BP §1.5 已按同一理由撤回这批数。
 - 文献口径：本轮扩题未做新文献搜索，DOI 命中为 0；没有新文献热力图。
 
 ## 6. Idea / 假设日志
