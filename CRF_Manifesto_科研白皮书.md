@@ -1,7 +1,7 @@
 ---
 title: Firm Involved Learning Manifesto / 科研白皮书
-version: 0.1-template
-status: BODY-DRAFT
+version: 0.1
+status: LIVING-DOC · v0.1
 as_of: 2026-09-16
 canonical_sources:
   - 调研文献/文献核实台账.md
