@@ -1,5 +1,5 @@
 ---
-title: CRF Manifesto / 科研白皮书
+title: Firm Involved Learning Manifesto / 科研白皮书
 version: 0.1-template
 status: BODY-DRAFT
 as_of: 2026-09-16
@@ -16,7 +16,7 @@ canonical_sources:
 progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\CRF项目\项目日志.md
 ---
 
-# CRF Manifesto / 科研白皮书
+# Firm Involved Learning Manifesto / 科研白皮书
 
 > 本文件包含模板头部与正文 v0.1；正文以 V400 实际冻结的 401 题（380 + 21 GAP 新题）为基准。
 > `as_of` 释义：**研究内容数字的最后复核日**（本版 2026-09-16），**不等于文档最后修改日**；`00 当前状态` 里带 `AS-OF` 的行若晚于它，以该行日期为准。
@@ -79,6 +79,7 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 - 细层清理：`social_exchange` / `academic_capitalism` 因唯一 citation 未核实，2026-09-16 从 `theory_tags` 与 registry 撤下；`Mitchell 1997` DOI 已回填并解除待核实。
 - 交叉引用：`TODO 教学法中介排除 ↔ DRAFT H6`。
 - **方向变更 · AS-OF 2026-09-27**：项目重心转 TDG（李博士牵头；bot 范围 =「校企合作智能顾问」）；并行启动**类商业计划书**（教学基金申报 + 创业比赛两用）；「两个企业谈配资」与 RAISe+ 的适配性待核实。研究内容口径未变，详见 `项目日志.md` 2026-09-27 条目。
+- **方向变更 · AS-OF 2026-09-28**：项目本体改名 **Firm Involved Learning**（`CRF` 自此只指那笔 grant，不再指项目本体）；研究层级钉为 **course level**（对应 `content + resource`）。研究内容口径未变，详见 `项目日志.md` 2026-09-28 条目。
 - 阻塞与等待：回链 `项目日志.md`。
 
 ## ⑦ 附录 A · 双语术语表
@@ -331,7 +332,7 @@ progress_log: D:\Obsidian\Intern-research\2-活动项目\港大科创园实习\C
 | 白皮书 / project log | 直接填正文，作为 Jin、教授和新成员的项目入口 | 本文件随各线进展持续更新 |
 | Simulation | 与 Jin 完整同步；两人各自写 COA、各自查 simulation 文献，筛 10 个 simulation-first 问题 | 先给 Jin 交接卡 + 本白皮书 + 三个 JSON |
 | 学校侧 incentive 文献调研 | 先查老师为什么愿意/不愿教这类课，再回企业侧 | 产出可引用文献证据，避免“我觉得” |
-| ITF / RAISe+ 平台提案 | 校企对接平台：历史数据、5 万级单课题赞助、Project Designer AI Bot、AI 替代基础答疑 | 截止日 2026-10-30 前完成 proposal |
+| ITF / RAISe+ 平台提案 | 校企对接平台：历史数据、5 万级单课题赞助、Project Designer AI Bot、AI 替代基础答疑 | 截止日 2026-10-30 前完成 proposal；**今年交付 = `proposal` ＋ 网站上线** · AS-OF 2026-09-28 · 详见 `项目日志.md` 2026-09-28 条目 |
 | 后续两位教授访谈 | 起草问题清单，围绕企业来源、满意度、留存、摩擦、教师成本等 | 清单先交李博士核对，再约时间 |
 
 ### 10.3 暂时停住的线
